@@ -114,7 +114,6 @@ function populateCardsDynamically() {
                 var hikeLength = doc.data().length; //gets the length field
                 let testHikeCard = hikeCardTemplate.content.cloneNode(true);
                 testHikeCard.querySelector('.card-title').innerHTML = hikeName;
-                // testHikeCard.querySelector('.card-length').innerHTML = hikeLength;
                 testHikeCard.querySelector('.card-length').innerHTML = 
                 "Length: " + doc.data().length + " km <br>" +
                 "Duration: " + doc.data().length_time + "min <br>" +
